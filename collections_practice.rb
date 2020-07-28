@@ -1,16 +1,16 @@
 ## Question 1: `#sort_array_asc`
 
 Build a method `sort_array_asc` that takes in an array of integers and returns a copy of the array with the integers in ascending order.
-def sort_array_asc =[]
+def sort_array_asc =[integer]
   i = 0
- return {|int|i+1}
+ return {|integer|integer+1}
 end 
 
 ## Question 2: `#sort_array_desc`
 
 Build a method `sort_array_desc` that takes in an array of integers and returns a copy of the array with the integers in descending order. Remember that `.sort` takes a block in which you can specify how you want your array sorted.
-def sort_array_desc(integers)
-  
+def sort_array_desc[integers]
+  {|integers|.sort-1}
 end 
 ## Question 3: `#sort_array_char_count`
 
