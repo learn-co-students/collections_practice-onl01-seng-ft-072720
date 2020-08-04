@@ -17,9 +17,19 @@ def sort_array_char_count(array)
 end
 
 def swap_elements(array)
-  array.each_with_index do |elemen , index|
-
+  saved1 = array[2]
+  saved2 = array[1]
+  new_array = []
+  array.each_with_index do |element , index|
+    if index == 0
+      new_array << element
+    elsif index == 1
+      new_array << saved1
+    else
+      new_array << saved2
   end
+end
+  new_array
 end
 
 def reverse_array(array)
